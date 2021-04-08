@@ -20,7 +20,8 @@ simulateModel = true;
 plotResults = true;
 
 % Name of the simulink model
-subfolder = ''; %include / at end
+[cfolder,~,~] = fileparts(mfilename('fullpath'));
+subfolder = ''; %include / at end of subfolder
 fname = 'sim_model_default';
 
 
@@ -111,9 +112,9 @@ add_line(gcs, 'LTI_sys/1', 'Out/1');
 Simulink.BlockDiagram.arrangeSystem(gcs) %Auto Arrange
 
 %% Save and Open System
-save_system(gcs,[subfolder, fname]);
+save_system(gcs,[cfolder, '\', subfolder, fname]);
 print(['-s', gcs], '-dpng',... % Print model to figure
-    [pwd, '\', subfolder, 'fig\', 'pblm3_c_model.png'])
+    [cfolder, '\' subfolder, 'fig\', 'sim_model_default.png'])
 
 end
 if openModel
@@ -137,6 +138,6 @@ hold on
 plot(Xout(:,2))
 legend('X_1', 'X_2')
 title('Saturated Double Integration Response while stabalized')
-saveas(fig, [pwd, '\', subfolder, 'fig\', 'StateResponse.png'])
+saveas(fig, [cfolder, '\',subfolder, 'fig\', 'StateResponse.png'])
 end
 
