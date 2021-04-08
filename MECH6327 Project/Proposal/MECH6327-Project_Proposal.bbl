@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{ORJUELA2019295}
+R.~Orjuela, D.~Ichalal, B.~Marx, D.~Maquin, and J.~Ragot, ``Chapter 9 -
+  polytopic models for observer and fault-tolerant control designs,'' in {\em
+  New Trends in Observer-Based Control} (O.~Boubaker, Q.~Zhu, M.~S. Mahmoud,
+  J.~Ragot, H.~R. Karimi, and J.~Dávila, eds.), Emerging Methodologies and
+  Applications in Modelling, pp.~295--335, Academic Press, 2019.
+
+\bibitem{orjuela2013nonlinear}
+R.~Orjuela, B.~Marx, J.~Ragot, and D.~Maquin, ``Nonlinear system identification
+  using heterogeneous multiple models,'' {\em International Journal of Applied
+  Mathematics and Computer Science}, vol.~23, no.~1, pp.~103--115, 2013.
+
+\bibitem{beelen2017joint}
+H.~Beelen and M.~Donkers, ``Joint state and parameter estimation for
+  discrete-time polytopic linear parameter-varying systems,'' {\em
+  IFAC-PapersOnLine}, vol.~50, no.~1, pp.~9778--9783, 2017.
+
+\bibitem{bar2004estimation}
+Y.~Bar-Shalom, X.~R. Li, and T.~Kirubarajan, {\em Estimation with applications
+  to tracking and navigation: theory algorithms and software}.
+\newblock John Wiley \& Sons, 2004.
+
+\bibitem{securestateestimation}
+M.~H. {Basiri}, J.~G. {Thistle}, J.~W. {Simpson-Porco}, and S.~{Fischmeister},
+  ``Kalman filter based secure state estimation and individual attacked sensor
+  detection in cyber-physical systems,'' in {\em 2019 American Control
+  Conference (ACC)}, pp.~3841--3848, 2019.
+
+\bibitem{hashemi2018comparison}
+N.~Hashemi, C.~Murguia, and J.~Ruths, ``A comparison of stealthy sensor attacks
+  on control systems,'' in {\em 2018 Annual American Control Conference (ACC)},
+  pp.~973--979, IEEE, 2018.
+
+\end{thebibliography}
